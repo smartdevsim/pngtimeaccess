@@ -11,7 +11,7 @@ return array(
 	"dbhost" => "localhost",
 	"dbname" => "moor14_pngtimeaccess",
 	"dbuser" => "root",
-	"dbpass" => "",
+	"dbpass" => "Jhon123$%",
 	"dbprefix" => "",
 	"title" => "PNG Time Access",
 	"keywords" => "",
