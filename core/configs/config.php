@@ -2,8 +2,8 @@
 //This file can be modified by website settings
 //Dont edit this file if you dont know what you do
 return array(
-	"domain" => "pngtimeaccess.com",
-	"url" => "https://pngtimeaccess.com/",
+	"domain" => "time.pnghrm.com",
+	"url" => "https://time.pnghrm.com/",
 	"admin_path" => "admin",
 	"admin_email" => "sarzhevsky@gmail.com",
 	"email_name" => "PNG Time Access",
