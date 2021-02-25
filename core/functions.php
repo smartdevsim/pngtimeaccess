@@ -1103,7 +1103,7 @@ function getUserListContent(){
 		$tpl .= '<a href="/add-customer/" class="graybtn">Add New Customer</a><div class="graybtn" style="margin-left: 20px;padding: 0;"><div id="add-users-spreadsheet-button-data-res" style="padding: 0 15px;" onclick="addUsersSpreadsheet();" data-name="Add Customers from Spreadsheet">Add Customers from Spreadsheet</div><input type="file" id="spreadsheet-users-file" data-role="customers" style="display: none;position: relative;overflow: hidden;width: 1px;height: 1px;opacity: 0;" /></div>';
 
 	if($view_role == 'users' OR (is_customer() AND !$view_role))
-		$tpl .= '<a href="/add-user/" class="graybtn">Add User</a><div class="graybtn" style="margin-left: 20px;padding: 0;"><div id="add-users-spreadsheet-button-data-res" style="padding: 0 15px;" onclick="addUsersSpreadsheet();" data-name="Add Users from Spreadsheet">Add Users from Spreadsheet</div><input type="file" id="spreadsheet-users-file" data-role="users" style="display: none;position: relative;overflow: hidden;width: 1px;height: 1px;opacity: 0;" /></div>';
+		$tpl .= '<a href="/add-user/" class="graybtn">Add User</a><div class="graybtn" style="margin-left: 20px;padding: 0;"><div id="add-users-spreadsheet-button-data-res" style="padding: 0 15px;" onclick="addUsersSpreadsheet();" data-name="Add Users from Spreadsheet">Add Users from Spreadsheetqweqweqwe</div><input type="file" id="spreadsheet-users-file" data-role="users" style="display: none;position: relative;overflow: hidden;width: 1px;height: 1px;opacity: 0;" /></div>';
 
 $tpl .= '
 </div>
