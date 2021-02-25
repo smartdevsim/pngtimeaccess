@@ -3,7 +3,7 @@
 //Dont edit this file if you dont know what you do
 return array(
 	"domain" => "time.pnghrm.com",
-	"url" => "https://time.pnghrm.com/",
+	"url" => "http://time.pnghrm.com/",
 	"admin_path" => "admin",
 	"admin_email" => "sarzhevsky@gmail.com",
 	"email_name" => "PNG Time Access",
