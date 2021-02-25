@@ -8,7 +8,6 @@ if ( $_POST['payload'] ) {
     fwrite($fp,$content);
     fclose($fp);
     shell_exec( 'cd /var/www/html/pngtimeaccess && git reset –hard HEAD && git pull' );
-
 }
 
 ?>
