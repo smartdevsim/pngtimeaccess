@@ -2,11 +2,6 @@ DirectoryIndex index.php
 
 RewriteEngine On
 
-#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-#RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
-
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
 
 RewriteBase /
 RewriteRule ^index\.php$ - [L,QSA]
