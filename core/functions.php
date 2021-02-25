@@ -1346,7 +1346,6 @@ die(printDocHead().'
 
 function getLoginScreen(){
 	global $db;
-
 	$tpl = '<!DOCTYPE html><html><head><title>PNG Time Access Login</title><meta charset="utf-8" /><!--[if lt IE 9]><script src="/static/html5.js"></script><![endif]--><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="keywords" content="" /><meta name="description" content="" /><link rel="stylesheet" href="/static/login.css.php?v='.time().'" type="text/css" /><link rel="icon" href="/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /></head><body>';
 
 	$tpl .= '
