@@ -2,7 +2,6 @@ DirectoryIndex index.php
 
 RewriteEngine On
 
-
 RewriteBase /
 RewriteRule ^index\.php$ - [L,QSA]
 RewriteCond %{REQUEST_FILENAME} !-f
